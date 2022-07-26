@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Lexend+Deca:wght@100&family=Poppins:wght@500&display=swap');
+*{
+    text-decoration: none;
+    font-family: 'Lexend Deca';
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+nav ol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav ol li{
+    padding: 20px;
+    font-size: 20px;
+}
+nav ol li a{
+    color: #000;
+}
+nav ol li a:hover{
+    color: rgb(30, 128, 0);
+    border-bottom: 3px solid rgb(30, 128, 0);
+}
+.active{
+    color: rgb(30, 128, 0);
+}
+.container{
+    display: flex;
+    margin: auto;
+    width: 65%;
+}
+.sedans{
+    font-size: 16px;
+    font-weight: 700;
+    height: 60vh;
+    background-color: #E28525;
+    padding: 3em;
+    border-radius: 10px 0 0  10px;
+}
+.sedans h1{
+    font-family: 'Big Shoulders Display'; 
+    font-size: 2.4em; 
+    font-weight: 700; 
+    color:#fff;
+}
+.sedans p{
+    padding: 1.5em 0;
+    line-height: 25px;
+    font-weight: 550;
+    font-size: 16px;
+}
+.sedans img{
+    padding: 1em 0;
+}
+
+.sedans a{
+    color: #E28525; 
+    background-color: #fff;
+    color: #E28525;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Lexend Deca';
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 50px;
+    float: left;
+    margin-top: 100px;
+}
+.sedans a:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.suv{
+    font-size: 16px;
+    height: 60vh;
+    background-color: #016972;
+    padding: 3em;
+}
+.suv h1{
+    font-family: 'Big Shoulders Display'; 
+    font-size: 2.4em; 
+    font-weight: 700; 
+    color:#fff;
+}
+.suv img{
+    padding: 1em 0;
+}
+.suv a{
+    background-color: #fff;
+    color: #016972;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 50px;
+    float: left;
+    margin-top: 100px;
+}
+.suv a:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.luxury{
+    font-size: 16px;
+    height: 60vh;
+    background-color: #00403F;
+    padding: 3em;
+    border-radius: 0 10px 10px 0;
+}
+.luxury img{
+    padding: 1em 0;
+}
+.luxury h1{
+    font-family: 'Big Shoulders Display'; 
+    font-size: 2.4em; 
+    font-weight: 700; 
+    color:#fff;
+}
+.luxury a{
+    font-family: 'Lexend Deca';
+    font-weight: 300;
+    float: left;
+    background-color: #fff;
+    color: #00403F;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+.luxury a:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
